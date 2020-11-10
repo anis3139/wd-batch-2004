@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+
+}
+.aniamtion{
+    background-color: rgb(175, 19, 19);
+    width: 100px;
+    height: 100px;
+    animation-name: first-animation;
+    animation-duration: 4s;
+    position: relative;
+    animation-delay: 2s;
+    animation-direction:alternate-reverse;
+    animation-iteration-count: 2;
+}
+
+@keyframes first-animation{
+    0%{
+        background-color: red; top:0px; left:0px;
+
+    }
+   25%{
+        background-color: blue; top:0px; left:300px;
+    }
+  50%{
+        background-color: yellow; top:300px; left:300px;
+    }
+   75%{
+        background-color: rgb(15, 110, 39); top:300px; left:0px;
+    }
+   100%{
+        background-color: rgb(15, 110, 39); top:0px; left:0px;
+    }
+}
+.rgba{
+    height: 300px;
+    width: 300px;
+    background-color: rgba(10, 45, 82, 0.8);
+    color: #2e2d2d;
+}
+
+
+
+.parants{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    opacity: 0.8;
+  
+}
+.image img{
+    width: 100%;
+    height: auto;
+    border: 5px dotted green;
+    padding: 20px;
+}
+.right{
+    padding: 20px;
+}
+
+.content p{
+    font-size: 20px;
+    padding: 50px;
+}
+
+
+.mainDIv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.mainDIv .left{
+    width: 200px;
+    height: 200px;
+    background-color: #222;
+    padding: 20px;
+    margin: 10px;
+    /* float: left; */
+}
+.mainDIv .right{
+    width: 200px;
+    height: 200px;
+    background-color: #222;
+    padding: 20px;
+    margin: 10px;
+    /* float: right; */
+}

@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* static 
+fixed
+reletive
+absulute */
+
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 5px 10px;
+    background-color: coral;
+    position: relative;
+    border-radius: 5px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.menu ul li:hover{
+ background-color:red;
+}
+.menu ul li a:hover{
+    color:#000;
+}
+
+
+
+
+
+.menu ul li ul{
+    position:absolute;
+    left:-9999px;
+}
+.menu ul li ul li{
+    display: block;
+}
+.menu ul li:hover ul{
+    position: absolute;
+    left: -30px;
+    margin-top:5px;
+    
+}

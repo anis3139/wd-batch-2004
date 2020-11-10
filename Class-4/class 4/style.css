@@ -1,0 +1,73 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.secondDiv{
+	width: 400px;
+	height: 500px;
+	background-color: red;
+}
+
+.myPara{
+	color: white;
+}
+
+.firstDiv{
+			width: 400px; 
+			height:600px;
+			background-color: blue;
+			
+}
+
+
+
+
+
+.divOne{
+	width: 300px;
+	height: 200px;
+	background-color: red;
+	text-align: center;
+	margin: 30px 0px;
+	padding: 20px
+	float:left;
+}
+
+
+#divTwo{
+	width: 300px;
+	height: 200px;
+	background-color: blue;
+	text-align: center;
+	float:right;
+}
+
+p{
+	color: #fff;
+}
+
+.child-1{
+	background-color: aqua;
+	width: 200px;
+	height: 200px;
+}
+
+ .child-2{
+	background-color: aqua;
+	width: 200px;
+	height: 200px;
+}s
+
+
+
+
+
+
+
+
+
+
+
+
+
